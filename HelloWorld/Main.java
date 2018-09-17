@@ -14,8 +14,8 @@ public class Main
             byte b[] = new byte[1048576];
             v.add(b);
             Runtime rt = Runtime.getRuntime();
-            System.out.println( "free memory: " + rt.freeMemory() );
-            Thread.sleep(400);
+            System.out.println( "free memory: " + rt.freeMemory() + " max: " + rt.maxMemory());
+            //Thread.sleep(100);
         }
     }
 }
