@@ -16,7 +16,7 @@ public class Main
             v.add(b);
             Runtime rt = Runtime.getRuntime();
             System.out.println( "free memory: " + rt.freeMemory() + " max: " + rt.maxMemory());
-            Thread.sleep(1);
+            Thread.sleep(100);
         }
         } catch (Exception e) {
             System.out.println("Exception: " + e);
