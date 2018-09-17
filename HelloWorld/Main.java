@@ -17,6 +17,5 @@ public class Main
             System.out.println( "free memory: " + rt.freeMemory() );
             Thread.sleep(400);
         }
-        System.out.println("Hello world done");
     }
 }
