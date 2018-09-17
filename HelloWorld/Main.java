@@ -8,6 +8,7 @@ public class Main
     {
         System.out.println("Hello world");
         
+        try {
         List v = new ArrayList();
         while (true)
         {
@@ -16,6 +17,9 @@ public class Main
             Runtime rt = Runtime.getRuntime();
             System.out.println( "free memory: " + rt.freeMemory() + " max: " + rt.maxMemory());
             Thread.sleep(1000);
+        }
+        } catch (Exception e) {
+            System.out.println("Exception: " + e);
         }
     }
 }
