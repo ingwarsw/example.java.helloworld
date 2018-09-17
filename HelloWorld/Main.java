@@ -1,12 +1,14 @@
 package HelloWorld;
 
+import java.util.*;
+
 public class Main
 {
     public static void main(String[] args) throws Exception
     {
         System.out.println("Hello world");
         
-        Vector v = new Vector();
+        List v = new ArrayList();
         while (true)
         {
             byte b[] = new byte[1048576];
